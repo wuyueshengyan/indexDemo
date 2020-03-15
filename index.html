@@ -93,6 +93,7 @@
     </style>
     <script>
         function goBack() {
+            console.log(wx)
             wx.miniProgram.getEnv(function(res) {
                 console.log(123)
                 if (res.miniprogram) {
