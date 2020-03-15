@@ -98,7 +98,9 @@
                 console.log(123)
                 if (res.miniprogram) {
                     wx.miniProgram.postMessage({
-                        data: '123'
+                        data: {
+                            add: '564654654658787'
+                        }
                     });
                     wx.miniProgram.navigateBack();
                 }
