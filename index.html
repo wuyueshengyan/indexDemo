@@ -94,6 +94,7 @@
     <script>
         function goBack() {
             wx.miniProgram.getEnv(function(res) {
+                console.log(123)
                 if (res.miniprogram) {
                     wx.miniProgram.postMessage({
                         data: '123'
