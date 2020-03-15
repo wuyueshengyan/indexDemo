@@ -32,7 +32,8 @@
         // });
         var btn = document.querySelector("#btn")
         btn.addEventListener('click', function() {
-            // 小程序发送信息
+            console.log('发送消息')
+                // 小程序发送信息
             wx.miniProgram.getEnv(function(res) {
                 console.log(res)
                     // if (res.miniprogram) {
